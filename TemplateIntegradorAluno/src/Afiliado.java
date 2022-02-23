@@ -10,6 +10,4 @@ public class Afiliado extends Vendedor{
         return this.vendas * PONTOS_POR_VENDA;
     }
 
-
-
 }
