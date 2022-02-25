@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5af5262-f040-458c-b55c-6287b03dc27b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula05-ProxyPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/aula05-ProxyPattern/model/Pessoa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/aula05-ProxyPattern/model/PessoaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/aula05-ProxyPattern/service/ServicoVacinar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/aula05-ProxyPattern/service/ServicoVacinarProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/aula05-ProxyPattern/service/Vacinar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/PessoaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ServicoVacinar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ServicoVacinarProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/Vacinar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/out/production/proxy-internet/com/dh/proxy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/out/production/proxy-internet/com/dh/proxy/service/IConexionInternet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/out/production/proxy-internet/com/dh/proxy/service/impl/InternetService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/out/production/proxy-internet/com/dh/proxy/service/impl/ProxyInternet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/proxy-internet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/src/com/dh/proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/src/com/dh/proxy/service/IConexionInternet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/src/com/dh/proxy/service/impl/InternetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Assincrona-proxy-internet/proxy-internet/src/com/dh/proxy/service/impl/ProxyInternet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/aula05Mesa06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/src/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/src/model/UsuarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/src/service/Download.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/src/service/ServicoDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula05Mesa06/src/service/ServicoDownloadProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula03IntegradoraMesa09.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/CheckMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/CheckMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/Gerenciador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/Gerenciador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/GerenciadorComercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/GerenciadorComercial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/GerenciadorGerencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/GerenciadorGerencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/GerenciadorSpam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/GerenciadorSpam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/GerenciadorTecnica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/GerenciadorTecnica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/Mail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula04-chainOfResponsabilityPattern/src/Programa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/creditos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/out/production/creditos/com/dh/banco/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/out/production/creditos/com/dh/banco/service/FuncionarioBanco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/out/production/creditos/com/dh/banco/service/impl/Diretor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/out/production/creditos/com/dh/banco/service/impl/ExecutivoDeConta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/out/production/creditos/com/dh/banco/service/impl/Gerente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/src/com/dh/banco/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/src/com/dh/banco/service/FuncionarioBanco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/src/com/dh/banco/service/impl/Diretor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/src/com/dh/banco/service/impl/ExecutivoDeConta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula04Assincrona/src/com/dh/banco/service/impl/Gerente.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="25bKmvZEZD2sdihaO4qGx66huq8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula05-ProxyPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.PessoaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PessoaTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5af5262-f040-458c-b55c-6287b03dc27b" name="Changes" comment="" />
+      <created>1645790511008</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645790511008</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
