@@ -2,48 +2,52 @@ package dao.impl;
 
 import dao.IDao;
 import dao.config.ConfigJDBC;
-import model.Endereco;
+import model.Hotel;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class EnderecoDaoH2 implements IDao<Endereco> {
+public class HotelDaoH2 implements IDao<Hotel> {
 
     private ConfigJDBC configJDBC;
 
-    public EnderecoDaoH2(ConfigJDBC configJDBC) {
+    public HotelDaoH2(ConfigJDBC configJDBC) {
         this.configJDBC = configJDBC;
     }
 
     @Override
-    public Endereco salvar(Endereco endereco) {
+    public Hotel salvar(Hotel hotel) {
 
         Connection connection = configJDBC.conectarComBancoDeDados();
         Statement stmt = null;
         String query = String.format(
-                "INSERT INTO enderecos " +
-                        "(rua, numero, cidade, bairro) " +
-                        "VALUES ('%s', '%s', '%s', '%s')",
-                endereco.getRua(),
-                endereco.getNumero(),
-                endereco.getCidade(),
-                endereco.getBairro());
+                "INSERT INTO hoteis " +
+                        "(nomeFilial, rua, numero, cidade, estado, cincoEstrelas) " +
+                        "VALUES ('%s', '%s', '%s', '%s', '%s', '%s')",
+                hotel.getNomeFilial(),
+                hotel.getRua(),
+                hotel.getNumero(),
+                hotel.getCidade(),
+                hotel.getEstado(),
+                hotel.getCincoEstrelas()
+
+        );
 
         try {
             stmt = connection.createStatement();
             stmt.executeUpdate(query, Statement.RETURN_GENERATED_KEYS);
             ResultSet keys = stmt.getGeneratedKeys();
             if(keys.next())
-                endereco.setId(keys.getInt(1));
+                hotel.setId(keys.getInt(1));
             stmt.close();
             connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
-        return endereco;
+        return hotel;
     }
 
 }
