@@ -1,4 +1,4 @@
-import model.Cachorro;
+import model.Contato;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -8,30 +8,30 @@ public class Programa {
 
     public static void main(String[] args) {
 
-        List<Cachorro> cachorros = new ArrayList<>();
+        List<Contato> contatos = new ArrayList<>();
 
         // Usando o construtor padrão
-        Cachorro c1 = new Cachorro();
-        c1.setNome("Pluto");
-        c1.setRaca("Fila");
-        c1.setIdade(3);
-        c1.setEndereco("Av. Bento Gonçalves, 254");
+        Contato c1 = new Contato();
+        c1.setNome("Lucio");
+        c1.setEmail("lucio@mail.com");
+        c1.setTelefone("123456");
+
 
         //Usando o construtor com todos os parâmetros
-        Cachorro c2 = new Cachorro(
-                "Tob", "Beagle", 2, "Rua das Hortências, 52"
+        Contato c2 = new Contato(
+                "Julio", "julio@gmail.com", "123457"
         );
 
-        cachorros.add(c1);
-        cachorros.add(c2);
+        contatos.add(c1);
+        contatos.add(c2);
 
-        //Salvar a coleção cachorros em um arquivo
+        //Salvar contatos em um arquivo
         FileOutputStream fo = null;
 
         try {
             fo = new FileOutputStream("OutputFile.txt");
             ObjectOutputStream oos = new ObjectOutputStream(fo);
-            oos.writeObject(cachorros);
+            oos.writeObject(contatos);
         }
         catch (FileNotFoundException e) {
             System.out.println("ERROR: " + e.getMessage());
@@ -40,14 +40,14 @@ public class Programa {
             System.out.println("ERROR: " + e.getMessage());
         }
 
-        //Recuperar a coleção cachorros de um arquivo
-        List<Cachorro> recuperacachorros = null;
+        //Recuperar contatos de um arquivo
+        List<Contato> recuperacontatos = null;
         FileInputStream fi = null;
 
         try {
             fi = new FileInputStream("OutputFile.txt");
             ObjectInputStream ois = new ObjectInputStream(fi);
-            recuperacachorros = (ArrayList) ois.readObject();
+            recuperacontatos = (ArrayList) ois.readObject();
         }
         catch (FileNotFoundException e) {
             System.out.println("ERROR: " + e.getMessage());
@@ -56,12 +56,12 @@ public class Programa {
             System.out.println("ERROR: " + e.getMessage());
         }
 
-        for(Cachorro c : recuperacachorros) {
+        for(Contato c : recuperacontatos) {
             System.out.println(
                     c.getNome()
-                            + " | " + c.getRaca()
-                            + " | " + c.getIdade()
-                            + " | " + c.getEndereco()
+                            + " | " + c.getNome()
+                            + " | " + c.getEmail()
+                            + " | " + c.getTelefone()
             );
         }
     }
