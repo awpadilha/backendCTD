@@ -21,8 +21,32 @@ public class Aula21Application {
 	}
 		@GetMapping
 		public String Ola() {
-			return "CTD 2022 c/ SpringBoot Framework!";}
+			return "CTD 2022 c/ SpringBoot Framework!";
+		}
 
 
+	List<Endereco> enderecos = new ArrayList<>();
+
+	Endereco endereco1 = new ArrayList<>();
+	endereco1.setRua()
+
+
+	//Salvar endereço cliente/dentista em um arquivo
+	FileOutputStream fo = null;
+
+        try {
+		fo = new FileOutputStream("OutputFile.txt");
+		ObjectOutputStream oos = new ObjectOutputStream(fo);
+		oos.writeObject(enderecos);
+	}
+        catch (
+	FileNotFoundException e) {
+		System.out.println("ERROR: " + e.getMessage());
+	}
+        catch (Exception e) {
+		System.out.println("ERROR: " + e.getMessage());
+	}
+
+	}
 
 
